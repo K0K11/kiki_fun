@@ -1,0 +1,14 @@
+<div>
+    <p-timeline [value]="events2" layout="horizontal" align="alternate">
+        <ng-template pTemplate="content" let-event>
+            &#123;&#123;event&#125;&#125;
+        </ng-template>
+        <ng-template pTemplate="opposite" let-event>
+            &nbsp;
+        </ng-template>
+    </p-timeline>
+</div>
+
+<div>
+    <p-calendar [(ngModel)]="date" [inline]="true" [showWeek]="true"></p-calendar>
+</div>
