@@ -19,6 +19,7 @@ import { AvatarModule } from 'primeng/avatar';
 import { AvatarGroupModule } from 'primeng/avatargroup';
 import { CalendarModule } from 'primeng/calendar';
 import { FormsModule } from '@angular/forms';
+import { DividerModule } from 'primeng/divider';
 
 
 @NgModule({
@@ -42,7 +43,8 @@ import { FormsModule } from '@angular/forms';
     AvatarGroupModule,
     AvatarModule,
     CalendarModule,
-    FormsModule
+    FormsModule,
+    DividerModule
   ],
   providers: [MemeService],
   bootstrap: [AppComponent]

@@ -25,7 +25,9 @@
 
   :host::ng-deep {
     .p-datepicker-group-container,
-    .p-calendar {
+    .p-calendar,
+    .p-component, 
+    .ng-trigger {
       justify-content: center !important;
       align-items: center !important;
       margin-bottom: 2rem;

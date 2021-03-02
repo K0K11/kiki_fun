@@ -1,3 +1,8 @@
+<p-divider align="center">
+    <i class="pi pi-user p-mr-2"></i>
+        <b>  My Timeline</b>
+</p-divider>
+
 <div>
     <p-timeline [value]="events2" layout="horizontal" align="alternate">
         <ng-template pTemplate="content" let-event>
@@ -8,6 +13,11 @@
         </ng-template>
     </p-timeline>
 </div>
+
+<p-divider align="center">
+    <i class="pi pi-user p-mr-2"></i>
+        <b>  Date</b>
+</p-divider>
 
 <div>
     <p-calendar [(ngModel)]="date" [inline]="true" [showWeek]="true"></p-calendar>
