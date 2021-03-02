@@ -17,6 +17,13 @@
   }
 
   :host::ng-deep {
+    .p-timeline {
+      margin-top: 2rem !important;
+      margin-bottom: 2rem im !important;
+    }
+  }
+
+  :host::ng-deep {
     .p-datepicker-group-container,
     .p-calendar {
       justify-content: center !important;
